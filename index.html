@@ -1,0 +1,35 @@
+<!-- Use this as your HTML -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HTS Tech Assignment - Main</title>
+	<link href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" rel="Stylesheet"></link>
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<link rel="stylesheet" href="styles/style.css">
+	<script type='text/javascript' src='config.js'></script>
+	<script src="scripts/core.js"></script>
+</head>
+<body>
+	<div class="weather-app">
+		<h1>Weather APP</h1>
+		<div class="weather-search-container">
+			<input type="text" id="city" placeholder="State Name">
+			<button onclick="searchWeather()">Search</button>
+		</div>
+		<div class="weather-details">
+			<div class="city-name">
+				<label for="city-name">State : </label>
+				<span id="city-name"></span>
+			</div>
+			<div class="city-weather">
+				<label for="weather">Weather : </label>
+				<span id="city-weather"></span>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
